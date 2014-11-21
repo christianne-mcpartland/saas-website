@@ -60,13 +60,8 @@ header {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: #000;
+	background-color: white;
 	background-position: 0 -40px;
-}
-
-.nav-btn[data-state="active"] {
-	background-color: #000;
-	background-position: -46px -40px;
 }
 
 .nav {
@@ -115,4 +110,9 @@ header {
 
 .nav-top[data-state="expanded"] {
 	max-height: 14em;
+}
+
+billboard {
+    margin: 0;
+    padding: 0;
 }
