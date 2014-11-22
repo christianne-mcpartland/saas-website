@@ -112,7 +112,30 @@ header {
 	max-height: 14em;
 }
 
-billboard {
+.billboard {
     margin: 0;
-    padding: 0;
+    padding: 3em;
+    position: relative;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    display: block;
+}
+
+.billboard::after {
+    content:" ";
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    bottom: -25px;
+}
+
+.try-button {
+    font-size: 1.5em;
+    font-family: Helvetica;
+    padding: .5em;
+    cursor: pointer;
 }
