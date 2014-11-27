@@ -136,7 +136,9 @@ header {
 .try-button {
     font-size: 1.5em;
     font-family: Helvetica;
-    padding: .5em;
+    padding-left: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     cursor: pointer;
     align-content: center;
 }
