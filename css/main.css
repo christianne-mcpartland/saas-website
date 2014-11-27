@@ -138,6 +138,7 @@ header {
     font-family: Helvetica;
     padding: .5em;
     cursor: pointer;
+    align-content: center;
 }
 
 @media only screen and (min-width: 25em) {
@@ -168,6 +169,12 @@ header {
     content: none;
   }
     
+}
+
+.square {
+	width: 300px;
+	height: 200px;
+	background: red;
 }
 
 @media only screen and (min-width: 38em) {
