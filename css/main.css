@@ -139,3 +139,51 @@ header {
     padding: .5em;
     cursor: pointer;
 }
+
+@media only screen and (min-width: 25em) {
+      .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .nav-footer a,
+  .nav-footer a:link,
+  .nav-footer a:visited {
+    display: inline-block;
+  }
+
+  .nav-footer li::after {
+    content: "·";
+    display: inline-block;
+    width: 0.5em;
+
+    color: #666;
+    text-align: right;
+  }
+
+  .nav-footer li:last-child::after {
+    content: none;
+  }
+    
+}
+
+@media only screen and (min-width: 38em) {
+      .nav-footer {
+    text-align: right;
+  }
+    
+}
+
+@media only screen and (min-width: 60em) {
+    
+}
+
+
+
+
+
+
+
