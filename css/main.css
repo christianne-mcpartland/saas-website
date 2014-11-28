@@ -159,11 +159,12 @@ header {
 
 .try-button {
     font-size: 1.5em;
-    padding-left: 4em;
-    padding-top: 2em;
-    padding-bottom: 2em;
     cursor: pointer;
-    align-content: center;
+    position: center;
+    padding-top: 3rem;
+    border-color: lightgreen;
+    list-style-type: none;
+    background-color: lavender; 
 }
 
 footer {
@@ -228,7 +229,6 @@ blockquote p:after {
   }
 
   .nav-footer li::after {
-    content: "·";
     display: inline-block;
     width: 0.5em;
 
