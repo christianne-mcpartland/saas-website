@@ -166,9 +166,16 @@ header {
     border-color: lightgreen;
     border-width: 200px;
     list-style-type: none;
-    border-style: solid;
-    border-color: lavender;
-    border-width: medium;
+    background-color: lavender;
+}
+
+.try-button a {
+    text-decoration: none;
+}
+
+.feature-image {
+    max-width: 200px;
+    margin: 0 auto;
 }
 
 footer {
