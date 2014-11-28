@@ -167,7 +167,14 @@ header {
     border-width: 200px;
     list-style-type: none;
     background-color: lavender;
+    color: black;
 }
+
+.try-button a:visited {
+    color: black;
+    display: block;
+}
+    
 
 .try-button a {
     text-decoration: none;
@@ -242,6 +249,7 @@ blockquote p:after {
   .nav-footer li::after {
     display: inline-block;
     width: 0.5em;
+    list-style-type: none;
 
     color: #226474;
     text-align: center;
