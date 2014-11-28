@@ -167,15 +167,6 @@ header {
     align-content: center;
 }
 
-.circle {
-	width: 100px;
-	height: 100px;
-	background: red;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-}
-
 footer {
     padding: 2rem;
 }
@@ -201,7 +192,7 @@ blockquote p:before {
     font-size: 4rem;
     color: red;
     float: left;
-    margin: 0.1rem 0 0 -2rem;
+    margin: 0 0 .5rem;
 }
 
 blockquote p:after {
@@ -210,6 +201,15 @@ blockquote p:after {
     position: absolute;
     color: #226474;
     margin: -0.rem 0 0;
+}
+
+.facebook {
+    height: 46px;
+    width: 100%;
+    float:left;
+    margin: 0;
+    background-color: black;
+    display: inline-block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -233,8 +233,8 @@ blockquote p:after {
     display: inline-block;
     width: 0.5em;
 
-    color: #666;
-    text-align: right;
+    color: #226474;
+    text-align: center;
   }
 
   .nav-footer li:last-child::after {
