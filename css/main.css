@@ -89,7 +89,7 @@ header {
 }
 
 .nav {
-	background-color: #000;
+	background-color: #226474;
 }
 
 .nav > ul {
@@ -159,7 +159,6 @@ header {
 
 .try-button {
     font-size: 1.5em;
-    font-family: Helvetica;
     padding-left: 4em;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -208,7 +207,7 @@ blockquote p:after {
     width: 100%;
     float:left;
     margin: 0;
-    background-color: black;
+    background-color: #226474;
     display: inline-block;
 }
 
