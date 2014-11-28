@@ -153,18 +153,22 @@ header {
     width: 50px;
     height: 50px;
     left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
     bottom: -25px;
 }
 
 .try-button {
-    font-size: 1.5em;
+    font-size: 2rem;
     cursor: pointer;
     position: center;
     padding-top: 3rem;
     border-color: lightgreen;
+    border-width: 200px;
     list-style-type: none;
-    background-color: lavender; 
+    border-style: solid;
+    border-color: lavender;
+    border-width: medium;
 }
 
 footer {
