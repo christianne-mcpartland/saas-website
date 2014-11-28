@@ -180,6 +180,38 @@ footer {
     padding: 2rem;
 }
 
+blockquote {
+    margin: 0;
+    padding: 0 0 0 15%;
+    overflow: hidden;
+}
+
+blockquote p {
+    font-size: .875rem;
+}
+
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin: 1.5rem 0;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 4rem;
+    color: red;
+    float: left;
+    margin: 0.1rem 0 0 -2rem;
+}
+
+blockquote p:after {
+    content:"”";
+    font-size: 2rem;
+    position: absolute;
+    color: #226474;
+    margin: -0.rem 0 0;
+}
+
 @media only screen and (min-width: 25em) {
       
     .nav {
@@ -215,6 +247,10 @@ footer {
       .nav-footer {
     text-align: right;
   }
+    
+.billboard-text {
+    font-size: 3.5rem;
+}
     
 .billboard {
     margin: 0;
