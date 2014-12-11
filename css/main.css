@@ -241,7 +241,7 @@ blockquote p:after {
     position: center;
     padding-top: 3rem;
     list-style-type: none;
-    background-color: #ff966f;
+    background-color: white;
     color: black;
 }
 
@@ -254,7 +254,7 @@ blockquote p:after {
     left: 50%;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
-    bottom: -25px;
+    bottom: 200px;
 }
 
 
