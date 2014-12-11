@@ -207,7 +207,7 @@ blockquote p {
 }
 
 .reviews span {
-    float: right;
+    float: left;
     margin: 1.5rem 0;
     padding-right: 1rem;
 }
@@ -224,12 +224,20 @@ blockquote p:after {
     color: grey;
     position: absolute;
     margin-left: .5em;
-    margin-top: -0.5em;
+    margin-top: -0.2em;
+}
+
+.beige {
+    background-color: beige;
 }
 
 .nav-footer {
     list-style-type: none;
 }
+
+/* PRICING PAGE */
+
+
 
 @media only screen and (min-width: 25em) {
     
