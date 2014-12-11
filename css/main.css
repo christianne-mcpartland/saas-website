@@ -257,6 +257,33 @@ blockquote p:after {
     bottom: 200px;
 }
 
+button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 16px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: turquoise;
+}
+
+button:active {
+    border-color: orange;
+}
+
+.faq {
+    font-size: 2rem;
+    cursor: pointer;
+    position: center;
+    padding-top: 3rem;
+    list-style-type: none;
+    background-color: #72d49f;
+    color: black;
+
 
 @media only screen and (min-width: 25em) {
     
