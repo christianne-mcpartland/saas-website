@@ -90,14 +90,9 @@ header {
 
 .nav {
 	background-color: #226474;
-}
-
-.nav > ul {
-	margin: 0;
-	padding: 0.8em 0;
-
-	list-style-type: none;
-	font-size: 1.25em;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
 }
 
 .nav a,
@@ -130,6 +125,7 @@ header {
 	-o-transition: all 250ms linear;
 	-webkit-transition: all 250ms linear;
 	transition: all 250ms linear;
+    list-style-type: none;
 }
 
 .nav-top[data-state="expanded"] {
@@ -166,7 +162,7 @@ header {
     border-color: lightgreen;
     border-width: 200px;
     list-style-type: none;
-    background-color: lavender;
+    background-color: #ff966f;
     color: black;
 }
 
@@ -189,45 +185,50 @@ footer {
     padding: 2rem;
 }
 
+.facebook {
+    width: 46px;
+    margin: 0;
+    display: inline-block;
+}
+
+.social {
+    background-color: #226474;
+    text-align: center;
+}
+
 blockquote {
     margin: 0;
-    padding: 0 0 0 15%;
+    padding: 0 0 0 5%;
     overflow: hidden;
 }
 
 blockquote p {
-    font-size: .875rem;
+    font-size: 0.959rem;
 }
 
-blockquote span {
-    font-weight: bold;
+.reviews span {
     float: right;
     margin: 1.5rem 0;
+    padding-right: 1rem;
 }
 
 blockquote p:before {
     content: "“";
-    font-size: 4rem;
-    color: red;
-    float: left;
-    margin: 0 0 .5rem;
+    font-size: 2rem;
+    color: grey;
 }
 
 blockquote p:after {
-    content:"”";
+    content: "”";
     font-size: 2rem;
+    color: grey;
     position: absolute;
-    color: #226474;
-    margin: -0.rem 0 0;
+    margin-left: .5em;
+    margin-top: -0.5em;
 }
 
-.facebook {
-    height: 46px;
-    width: 100%;
-    float:left;
-    margin: 0;
-    background-color: #226474;
-    display: inline-block;
+.nav-footer {
+    list-style-type: none;
 }
 
 @media only screen and (min-width: 25em) {
