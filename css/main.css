@@ -159,8 +159,6 @@ header {
     cursor: pointer;
     position: center;
     padding-top: 3rem;
-    border-color: lightgreen;
-    border-width: 200px;
     list-style-type: none;
     background-color: #ff966f;
     color: black;
@@ -237,6 +235,27 @@ blockquote p:after {
 
 /* PRICING PAGE */
 
+.package {
+    font-size: 2rem;
+    cursor: pointer;
+    position: center;
+    padding-top: 3rem;
+    list-style-type: none;
+    background-color: #ff966f;
+    color: black;
+}
+
+.package::after {
+    content:" ";
+    position: absolute;
+    background-color: #ff966f;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    bottom: -25px;
+}
 
 
 @media only screen and (min-width: 25em) {
