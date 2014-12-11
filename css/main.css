@@ -198,6 +198,7 @@ blockquote {
     margin: 0;
     padding: 0 0 0 5%;
     overflow: hidden;
+    text-align: center;
 }
 
 blockquote p {
@@ -208,6 +209,7 @@ blockquote p {
     float: left;
     margin: 1.5rem 0;
     padding-right: 1rem;
+    text-align: center;
 }
 
 blockquote p:before {
@@ -241,14 +243,14 @@ blockquote p:after {
     position: center;
     padding-top: 3rem;
     list-style-type: none;
-    background-color: white;
+    background-color: rgb(68, 234, 221);
     color: black;
 }
 
 .package::after {
     content:" ";
     position: absolute;
-    background-color: #ff966f;
+    background-color: rgb(68, 234, 221);
     width: 50px;
     height: 50px;
     left: 50%;
@@ -277,12 +279,12 @@ button:active {
 
 .faq {
     font-size: 2rem;
-    cursor: pointer;
     position: center;
     padding-top: 3rem;
     list-style-type: none;
     background-color: #72d49f;
     color: black;
+}
 
 
 @media only screen and (min-width: 25em) {
@@ -318,6 +320,18 @@ button:active {
     content: none;
   }
     
+.package::after {
+    content:" ";
+    position: absolute;
+    background-color: rgb(68, 234, 221);
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    bottom: 255px;
+}
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -348,6 +362,18 @@ button:active {
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
     bottom: -25px;
+}
+    
+.package::after {
+    content:" ";
+    position: absolute;
+    background-color: rgb(68, 234, 221);
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    bottom: 136px;
 }
     
 }
