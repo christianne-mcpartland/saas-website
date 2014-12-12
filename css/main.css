@@ -310,7 +310,12 @@ label {
 
 .checkbox {
     white-space: nowrap;
-} 
+}
+}
+
+.radio {
+    white-space: nowrap;
+}
 }
 
 input + label {
