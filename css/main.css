@@ -256,7 +256,6 @@ blockquote p:after {
     left: 50%;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
-    bottom: 200px;
 }
 
 button {
@@ -296,6 +295,38 @@ button:active {
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
 }
+
+/* Sign Up */
+
+.form {
+    text-align: left;
+    max-width: 35em;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+.checkbox {
+    white-space: nowrap;
+} 
+}
+
+input + label {
+    display: inline-block;
+}
+
+.field {
+    font-size: 0.75em;
+    padding: 0.5em;
+}
+
+.box-width {
+    width: 100%;
+}
+
+
 
 @media only screen and (min-width: 25em) {
     
@@ -339,7 +370,6 @@ button:active {
     left: 50%;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
-    bottom: 255px;
 }
     
 }
@@ -383,7 +413,6 @@ button:active {
     left: 50%;
     -webkit-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
-    bottom: 136px;
 }
     
 }
