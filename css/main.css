@@ -286,6 +286,16 @@ button:active {
     color: black;
 }
 
+.faq::after {
+    content:" ";
+    position: absolute;
+    background-color: #72d49f;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+}
 
 @media only screen and (min-width: 25em) {
     
