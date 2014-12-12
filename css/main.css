@@ -310,12 +310,12 @@ label {
 
 .checkbox {
     white-space: nowrap;
-}
+    display: block;
 }
 
 .radio {
     white-space: nowrap;
-}
+    display: block;
 }
 
 input + label {
@@ -329,6 +329,10 @@ input + label {
 
 .box-width {
     width: 100%;
+}
+
+.footer {
+    background-color: #226474;
 }
 
 
